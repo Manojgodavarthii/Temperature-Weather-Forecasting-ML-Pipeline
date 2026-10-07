@@ -63,9 +63,10 @@ This project was built to meet rigorous production-oriented interview criteria:
     5. 𝐓𝐚𝐫𝐠𝐞𝐭 𝐈𝐧𝐭𝐞𝐠𝐫𝐢𝐭𝐲: Drops any row containing missing target values (Temperature (C)) prior to feature extraction.   
 
 ## 2. Feature Engineering & Leakage Prevention 
-  A total of 30+ engineered and direct features are constructed across multiple domains:   Temporal 
+      A total of 30+ engineered and direct features are constructed across multiple domains:   Temporal 
         Extraction:Extracts discrete units: Hour (0--23), Day, Month (1--12), Year, DayOfWeek (0--6), and DayOfYear.
-  **Cyclical Trigonometric Transformations**:
+      
+      Cyclical Trigonometric Transformations:
               • Hour_Sin = sin(2 * π * Hour / 24)
               • Hour_Cos = cos(2 * π * Hour / 24)
               • Month_Sin = sin(2 * π * Month / 12)
